@@ -19,7 +19,7 @@ DEFAULT_ICON = resource_path('notavail.png')
 STATUS_TRANSLATION = {
     'busy': {'status': 'Синхронизация', 'icon': resource_path('sync.png')},
     'idle': {'status': 'Синхронизировано', 'icon': resource_path('ok.png')},
-    'index': {'status': 'Индексация', 'icon': resource_path('error.png')},
+    'index': {'status': 'Индексация', 'icon': resource_path('sync.png')},
 }
 
 class SettingsWindow(QMainWindow):
