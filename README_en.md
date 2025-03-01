@@ -64,9 +64,9 @@ Settings are saved in ~/.config/yadiskindicator.yaml
 
 Files synchronized: ![ok](ok.png)
 
-Synchronization in progress: ![sync](sync.png)
+Synchronization or indexing: ![sync](sync.png)
 
-Shown during file indexing: ![error](error.png)
+Reserved (not using in this release): ![error](error.png)
 
 Default icon. Shown in case of any unexpected situation: ![notavai](notavail.png)
 
