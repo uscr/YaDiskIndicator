@@ -19,8 +19,8 @@ Telegram [UsCr0](https://t.me/UsCr0)
 
 # Сборка
 
-    python3 -m venv venv
-    source venv/bin/activate
+    mkdir ~/venv && python3 -m venv ~/venv/yadiskindicator
+    source ~/venv/yadiskindicator/bin/activate
     pip install -r requirements.txt
     # Собираем "бинарник"
     # Готовый файл будет лежать в dist/indicator
@@ -29,9 +29,10 @@ Telegram [UsCr0](https://t.me/UsCr0)
         --add-data "notavail.png:notavail.png" \
         --add-data "ok.png:ok.png" \
         --add-data "sync.png:sync.png" \
+        --paths "~/venv/yadiskindicator/lib/python<VERSION>/site-packages" \
         indicator.py \
         --workpath .
-    sudo cp dist/indicator /usr/local/bin/YaDiskIndicator
+    sudo cp ~/venv/yadiskindicator/dist/indicator /usr/local/bin/YaDiskIndicator
 
 # Запуск
 
